@@ -1,11 +1,27 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>لوحة تحكم OM Store</title>
-</head>
-<body>
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
-</body>
-</html>
+backend:
+  name: github
+  repo: mohamedalslwi7-gif/om-store-site
+  branch: main
+
+media_folder: ""
+public_folder: "/"
+
+collections:
+  - name: "products"
+    label: "المنتجات"
+    files:
+      - name: "products"
+        label: "قائمة المنتجات"
+        file: "products.json"
+        fields:
+          - name: "products"
+            label: "المنتجات"
+            widget: "list"
+            label_singular: "منتج"
+            summary: "{{fields.name}}"
+            fields:
+              - { name: "name", label: "اسم المنتج", widget: "string" }
+              - { name: "category", label: "التصنيف", widget: "string", required: false }
+              - { name: "description", label: "الوصف", widget: "text", required: false }
+              - { name: "image", label: "صورة المنتج", widget: "image" }
+              - { name: "exclusive", label: "إظهار ملصق حصريًا لدى OM Store", widget: "boolean", default: false }
