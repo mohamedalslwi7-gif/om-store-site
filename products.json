@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "طقم رياضي كاجوال",
+      "category": "أطقم رياضية",
+      "description": "قماش قطني مريح، متوفر بعدة مقاسات وألوان (رمادي غامق، أسود، رمادي فاتح).",
+      "image": "product-1-cr7-set.jpg",
+      "exclusive": true
+    },
+    {
+      "name": "طقم قطن فاخر",
+      "category": "ملابس داخلية فاخرة",
+      "description": "قطن مصري ناعم بتغليف فاخر، مثالي للاستخدام اليومي أو كهدية مميزة.",
+      "image": "product-2-lord-set.jpg",
+      "exclusive": true
+    },
+    {
+      "name": "تيشيرت طباعة كاجوال",
+      "category": "تيشيرتات",
+      "description": "قصة واسعة مريحة بطباعة مميزة، متوفر بعدة ألوان.",
+      "image": "product-3-graphic-tee.jpg",
+      "exclusive": false
+    }
+  ]
+}
