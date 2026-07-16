@@ -25,3 +25,20 @@ collections:
               - { name: "description", label: "الوصف", widget: "text", required: false }
               - { name: "image", label: "صورة المنتج", widget: "image" }
               - { name: "exclusive", label: "إظهار ملصق حصريًا لدى OM Store", widget: "boolean", default: false }
+
+  - name: "reviews"
+    label: "آراء العملاء"
+    files:
+      - name: "reviews"
+        label: "قائمة التقييمات"
+        file: "reviews.json"
+        fields:
+          - name: "reviews"
+            label: "التقييمات"
+            widget: "list"
+            label_singular: "تقييم"
+            summary: "{{fields.name}}"
+            fields:
+              - { name: "name", label: "اسم العميل", widget: "string" }
+              - { name: "rating", label: "التقييم (1-5)", widget: "number", min: 1, max: 5, default: 5 }
+              - { name: "comment", label: "نص التقييم", widget: "text" }
