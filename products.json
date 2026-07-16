@@ -20,6 +20,20 @@
       "description": "قصة واسعة مريحة بطباعة مميزة، متوفر بعدة ألوان.",
       "image": "product-3-graphic-tee.jpg",
       "exclusive": false
+    },
+    {
+      "name": "سراويل بجايم رجالي",
+      "category": "ملابس داخليات",
+      "description": "بجايم داخليه قطنيه 100%",
+      "image": "/1784237941831.png",
+      "exclusive": true
+    },
+    {
+      "name": "بدلات رجاليه شبك",
+      "category": "شتويه",
+      "description": "طقومات رجالي شبك جوده عاليه ومريحه",
+      "image": "/1784170413263.png",
+      "exclusive": true
     }
   ]
 }
