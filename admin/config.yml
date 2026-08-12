@@ -1,4 +1,4 @@
-ackend:
+backend:
   name: github
   repo: mohamedalslwi7-gif/om-store-site
   branch: main
@@ -17,6 +17,7 @@ collections:
           - name: "products"
             label: "المنتجات"
             widget: "list"
+            root: true
             label_singular: "منتج"
             summary: "{{fields.name}}"
             fields:
